@@ -194,6 +194,7 @@ body {
   .flex-container {
     flex-direction: row;
     max-width: none;
+    height: 85vh;
     margin: 0;
     align-items: center;
     justify-content: space-between;
@@ -223,5 +224,9 @@ body {
 
   #form {
     padding-top: 40px;
+  }
+
+  .form-footer {
+    padding-bottom: 30px;
   }
 }
