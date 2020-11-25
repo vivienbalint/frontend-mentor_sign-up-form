@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/style.css" />
+
+    <title>Frontend Mentor | Intro component with sign up form</title>
+  </head>
+  <body>
+    <div id="page-container">
+      <div class="flex-container">
+        <div class="main-text">
+          <h1 class="title">Learn to code by watching others</h1>
+
+          <p class="text">
+            See how experienced developers solve problems in real-time. Watching
+            scripted tutorials is great, but understanding how developers think
+            is invaluable.
+          </p>
+        </div>
+        <div class="main-container">
+          <div class="container">
+            <p>
+              <span>Try it free 7 days</span>
+
+              then $20/mo. thereafter
+            </p>
+          </div>
+          <div class="form-container">
+            <form id="form" novalidate>
+              <div class="input-wrapper">
+                <input
+                  type="text"
+                  name="First Name"
+                  id="first-name"
+                  aria-label="First Name"
+                  placeholder="First Name"
+                  spellcheck="false"
+                />
+              </div>
+              <p class="msg hide">
+                First Name must be between 2 and 15 characters
+              </p>
+              <div class="input-wrapper">
+                <input
+                  type="text"
+                  name="Last Name"
+                  id="last-name"
+                  aria-label="Last Name"
+                  placeholder="Last Name"
+                  spellcheck="false"
+                />
+              </div>
+              <p class="msg hide">
+                Last Name must be between 2 and 15 characters
+              </p>
+              <div class="input-wrapper">
+                <input
+                  type="email"
+                  name="Email"
+                  id="email"
+                  aria-label="Email Address"
+                  placeholder="Email Address"
+                  spellcheck="false"
+                />
+              </div>
+              <p class="msg hide">Looks like this is not an email</p>
+              <div class="input-wrapper">
+                <input
+                  type="password"
+                  name="Password"
+                  id="password"
+                  aria-label="Password"
+                  placeholder="Password"
+                  spellcheck="false"
+                />
+              </div>
+              <p class="msg hide">
+                Must contain at least 6 characters, 1 number, 1 lowercase and 1
+                uppercase
+              </p>
+              <button type="submit" id="btn">Claim your free trial</button>
+              <p class="form-footer">
+                By clicking the button, you are agreeing to our
+                <a href="#"> Terms and Services</a>
+              </p>
+            </form>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <p class="attribution">
+          Challenge by
+          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+            >Frontend Mentor</a
+          >. Coded by
+          <a href="https://www.linkedin.com/in/vivien-bálint-924179164/"
+            >Vivien Balint</a
+          >.
+        </p>
+      </footer>
+    </div>
+    <script src="/index.js"></script>
+  </body>
+</html>
